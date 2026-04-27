@@ -25,9 +25,9 @@
 
         nav {
             bindings = <
-&trans  &kp LA(F4)  &kp N2     &kp N3      &kp N4     &kp N5                                    &kp N6           &kp N7          &kp N8        &kp N9       &kp N0         &trans
-&trans  &kp HOME    &kp INS    &kp DELETE  &kp END    &kp LA(LSHFT)                             &kp LS(LC(TAB))  &msc SCRL_DOWN  &msc SCRL_UP  &kp LC(TAB)  &kp ENTER      &trans
-&trans  &kp LC(Z)   &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp PRINTSCREEN  &trans    &trans         &kp CAPSLOCK     &kp LC(LEFT)    &kp PG_DN     &kp PG_UP    &kp LC(RIGHT)  &trans
+&trans  &kp LA(F4)  &kp N2     &kp N3      &kp N4     &kp N5                                    &kp N6           &kp N7           &kp N8            &kp N9       &kp N0         &trans
+&trans  &kp HOME    &kp INS    &kp DELETE  &kp END    &kp LA(LSHFT)                             &kp LS(LC(TAB))  &msc MOVE_Y(10)  &msc MOVE_Y(-10)  &kp LC(TAB)  &kp ENTER      &trans
+&trans  &kp LC(Z)   &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp PRINTSCREEN  &trans    &trans         &kp CAPSLOCK     &kp LC(LEFT)     &kp PG_DN         &kp PG_UP    &kp LC(RIGHT)  &trans
                                            &trans     &trans           &trans    &kp LA(SPACE)  &mo 3            &trans
             >;
 
