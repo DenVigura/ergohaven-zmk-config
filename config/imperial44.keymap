@@ -13,7 +13,7 @@
 &kp TAB     &kp Q  &kp W  &kp E  &kp R         &kp T                          &kp Y  &kp U          &kp I      &kp O    &kp P     &kp BACKSPACE
 &kp ESCAPE  &kp A  &kp S  &kp D  &kp F         &kp G                          &kp H  &kp J          &kp K      &kp L    &kp SEMI  &kp LGUI
 &kp LSHFT   &kp Z  &kp X  &kp C  &kp V         &kp B  &kp LBKT     &kp RBKT   &kp N  &kp M          &kp COMMA  &kp DOT  &kp SQT   &kp RSHFT
-                                 &kp LEFT_ALT  &mo 1  &kp SPACE    &kp ENTER  &mo 2  &kp RIGHT_ALT
+                                 &kp LEFT_ALT  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RIGHT_ALT
             >;
 
             display-name = "Base";
@@ -25,7 +25,7 @@
         nav {
             bindings = <
 &trans  &kp N1     &kp N2     &kp LA(E)   &kp LA(R)  &kp N5                                    &kp N6           &kp N7        &kp N8     &kp LA(O)    &kp N0         &trans
-&trans  &mo 4      &kp INS    &kp DELETE  &kp END    &kp LA(LSHFT)                             &kp LS(LC(TAB))  &kp LA(J)     &kp LA(K)  &kp LC(TAB)  &kp ENTER      &trans
+&trans  &mo 4      &kp INS    &kp DELETE  &kp ESC    &kp LA(LSHFT)                             &kp LS(LC(TAB))  &kp LA(J)     &kp LA(K)  &kp LC(TAB)  &kp ENTER      &trans
 &trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp PRINTSCREEN  &trans    &trans         &kp CAPSLOCK     &kp LC(LEFT)  &kp PG_DN  &kp PG_UP    &kp LC(RIGHT)  &trans
                                           &trans     &trans           &trans    &kp LA(SPACE)  &mo 3            &trans
             >;
@@ -35,9 +35,9 @@
 
         sym {
             bindings = <
-&trans  &kp LA(F4)  &kp LA(F4)  &kp EQUAL  &kp GT    &kp GRAVE                           &kp CARET  &kp LBKT  &kp UNDER  &kp F1    &trans    &trans
-&trans  &kp BSLH    &kp LPAR    &kp MINUS  &kp RPAR  &kp PLUS                            &kp PRCNT  &kp LBRC  &kp SEMI   &kp RBRC  &kp EXCL  &trans
-&trans  &kp HASH    &kp STAR    &kp COLON  &kp FSLH  &trans     &trans           &trans  &trans     &kp PIPE  &kp TILDE  &kp AMPS  &kp DLLR  &trans
+&trans  &kp LA(F4)  &kp LA(F4)  &kp EQUAL  &kp GT    &kp GRAVE                           &kp CARET  &kp LBKT   &kp UNDER  &kp F1    &trans    &trans
+&trans  &kp BSLH    &kp LPAR    &kp MINUS  &kp RPAR  &kp PLUS                            &kp PRCNT  &kp ENTER  &kp SEMI   &kp RBRC  &kp EXCL  &trans
+&trans  &kp HASH    &kp STAR    &kp COLON  &kp FSLH  &trans     &trans           &trans  &trans     &kp PIPE   &kp TILDE  &kp AMPS  &kp DLLR  &trans
                                            &trans    &mo 3      &kp LA(SPACE)    &trans  &trans     &trans
             >;
 
