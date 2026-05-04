@@ -35,7 +35,7 @@
 
         sym {
             bindings = <
-&trans  &kp LA(F4)  &kp LA(F4)  &kp EQUAL  &kp GT    &kp GRAVE                    &kp CARET  &kp LBKT   &kp UNDER  &kp RA(O)  &trans    &trans
+&trans  &kp LA(F4)  &kp LA(F4)  &kp EQUAL  &kp GT    &kp GRAVE                    &kp CARET  &kp LBKT   &kp UNDER  &kp LA(O)  &trans    &trans
 &trans  &kp BSLH    &trans      &kp MINUS  &kp RPAR  &kp PLUS                     &kp PRCNT  &kp ENTER  &kp SEMI   &kp F1     &kp EXCL  &trans
 &trans  &kp HASH    &kp STAR    &kp COLON  &kp FSLH  &trans     &trans    &trans  &trans     &kp PIPE   &kp TILDE  &kp AMPS   &kp DLLR  &trans
                                            &trans    &mo 3      &mo 6     &trans  &trans     &trans
