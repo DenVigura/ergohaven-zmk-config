@@ -59,7 +59,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(LEFT_ARROW))  &trans  &kp NUMBER_3  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(LEFT_ARROW))  &trans  &kp LS(HOME)  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans                  &trans
             >;
 
