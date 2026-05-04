@@ -24,10 +24,10 @@
 
         nav {
             bindings = <
-&trans  &kp N1     &kp N2     &kp LA(E)   &kp LA(R)  &kp N5                             &kp N6             &kp UP                   &kp DOWN   &kp LA(O)    &kp N0         &trans
-&trans  &mo 4      &kp F3     &kp DELETE  &kp ESC    &kp LA(LSHFT)                      &kp LS(LC(TAB))    &kp LA(J)                &kp LA(K)  &kp LC(TAB)  &trans         &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp PRINTSCREEN  &trans    &trans  &kp LC(SEMICOLON)  &kp LC(LS(RIGHT_ARROW))  &kp PG_DN  &kp PG_UP    &kp LC(RIGHT)  &trans
-                                          &trans     &trans           &trans    &mo 5   &mo 3              &trans
+&trans  &kp N1     &kp N2     &kp LA(E)   &kp LA(R)  &kp N5                             &kp N6                   &kp UP        &kp DOWN     &kp LA(O)          &kp N0         &trans
+&trans  &mo 4      &kp F3     &kp DELETE  &kp ESC    &kp LA(LSHFT)                      &kp LS(LC(TAB))          &kp LA(J)     &kp LA(K)    &kp LC(TAB)        &trans         &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)   &kp LC(V)  &kp PRINTSCREEN  &trans    &trans  &kp LC(LS(RIGHT_ARROW))  &kp LC(SEMI)  &kp LS(END)  &kp LA(LS(COMMA))  &kp LC(RIGHT)  &trans
+                                          &trans     &trans           &trans    &mo 5   &mo 3                    &trans
             >;
 
             display-name = "Nav";
@@ -57,9 +57,9 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans                  &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans                  &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(LEFT_ARROW))  &kp LS(LC(LEFT_ARROW))  &kp NUMBER_3  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(LEFT_ARROW))  &trans  &kp NUMBER_3  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans                  &trans
             >;
 
