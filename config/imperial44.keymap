@@ -24,10 +24,10 @@
 
         nav {
             bindings = <
-&trans  &trans     &kp LA(F4)  &kp LA(E)   &kp LA(R)  &trans                              &trans                   &kp UP        &kp DOWN   &kp LA(O)    &trans         &trans
-&trans  &kp ESC    &kp F3      &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))          &kp LA(J)     &kp LA(K)  &kp LC(TAB)  &trans         &trans
-&trans  &kp LC(Z)  &kp LC(X)   &kp LC(C)   &kp LC(V)  &kp HOME       &trans    &trans     &kp LC(LS(RIGHT_ARROW))  &kp LC(SEMI)  &kp HOME   &kp END      &kp LC(RIGHT)  &trans
-                                           &trans     &trans         &trans    &lt 5 TAB  &mo 3                    &trans
+&trans  &trans     &kp LA(F4)  &kp LA(E)   &kp LA(R)  &trans                              &trans           &kp UP        &kp DOWN   &kp LA(O)    &trans         &trans
+&trans  &kp ESC    &kp F3      &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp LA(J)     &kp LA(K)  &kp LC(TAB)  &trans         &trans
+&trans  &kp LC(Z)  &kp LC(X)   &kp LC(C)   &kp LC(V)  &kp HOME       &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp HOME   &kp END      &kp LC(RIGHT)  &trans
+                                           &trans     &trans         &trans    &lt 5 TAB  &mo 3            &trans
             >;
 
             display-name = "Nav";
