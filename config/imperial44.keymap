@@ -24,10 +24,10 @@
 
         nav {
             bindings = <
-&trans  &trans     &trans     &kp LA(E)  &kp LA(R)  &trans                     &trans                   &kp UP        &kp DOWN     &kp LA(O)    &trans         &trans
-&trans  &kp ESC    &kp F3     &kp TAB    &kp LA(F)  &kp TAB                    &kp LS(LC(TAB))          &kp LA(J)     &kp LA(K)    &kp LC(TAB)  &trans         &trans
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans   &trans    &trans  &kp LC(LS(RIGHT_ARROW))  &kp LC(SEMI)  &kp LS(END)  &kp END      &kp LC(RIGHT)  &trans
-                                         &trans     &trans   &trans    &mo 5   &mo 3                    &trans
+&trans  &trans     &trans     &kp LA(E)  &kp LA(R)  &trans                        &trans                   &kp UP        &kp DOWN     &kp LA(O)    &trans         &trans
+&trans  &kp ESC    &kp F3     &kp TAB    &kp LA(F)  &kp TAB                       &kp LS(LC(TAB))          &kp LA(J)     &kp LA(K)    &kp LC(TAB)  &trans         &trans
+&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &trans   &trans    &trans     &kp LC(LS(RIGHT_ARROW))  &kp LC(SEMI)  &kp LS(END)  &kp END      &kp LC(RIGHT)  &trans
+                                         &trans     &trans   &trans    &lt 5 TAB  &mo 3                    &trans
             >;
 
             display-name = "Nav";
@@ -35,10 +35,10 @@
 
         sym {
             bindings = <
-&trans  &kp LA(F4)  &kp LA(F4)  &kp LC(RA(E))  &kp GT         &kp LC(RA(T))                    &kp LC(RA(S))  &kp LC(RA(T))  &kp LC(RA(C))  &kp LC(RA(O))  &trans  &trans
-&trans  &kp ESC     &trans      &kp LC(RA(D))  &kp RPAR       &kp PLUS                         &kp BACKSPACE  &kp ENTER      &trans         &kp F1         &trans  &trans
-&trans  &kp HASH    &kp STAR    &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans    &trans  &kp LC(RA(E))  &kp LC(RA(D))  &kp LC(RA(V))  &kp LA(SPACE)  &trans  &trans
-                                               &trans         &mo 3          &mo 6     &trans  &trans         &trans
+&trans  &kp LA(F4)  &kp LA(F4)  &kp LC(RA(E))  &kp GT         &kp LC(RA(T))                           &kp LC(RA(S))  &kp LC(RA(T))  &kp LC(RA(C))  &kp LC(RA(O))  &trans  &trans
+&trans  &kp ESC     &trans      &kp LC(RA(D))  &kp RPAR       &kp PLUS                                &kp BACKSPACE  &kp ENTER      &trans         &kp F1         &trans  &trans
+&trans  &kp HASH    &kp STAR    &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans           &trans  &kp LC(RA(E))  &kp LC(RA(D))  &kp LC(RA(V))  &kp LA(SPACE)  &trans  &trans
+                                               &trans         &mo 3          &lt 6 LS(TAB)    &trans  &trans         &trans
             >;
 
             display-name = "Symbols";
