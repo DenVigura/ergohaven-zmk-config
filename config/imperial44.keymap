@@ -36,7 +36,7 @@
         sym {
             bindings = <
 &trans  &kp LA(F4)  &kp LA(F4)  &kp LC(RA(E))  &kp GT         &kp LC(RA(T))                    &kp LC(RA(S))  &kp LC(RA(T))  &kp LC(RA(C))  &kp LC(RA(O))  &trans  &trans
-&trans  &kp BSLH    &trans      &kp LC(RA(D))  &kp RPAR       &kp PLUS                         &kp BACKSPACE  &kp ENTER      &trans         &kp F1         &trans  &trans
+&trans  &kp ESC     &trans      &kp LC(RA(D))  &kp RPAR       &kp PLUS                         &kp BACKSPACE  &kp ENTER      &trans         &kp F1         &trans  &trans
 &trans  &kp HASH    &kp STAR    &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans    &trans  &kp LC(RA(E))  &kp LC(RA(D))  &kp LC(RA(V))  &kp LA(SPACE)  &trans  &trans
                                                &trans         &mo 3          &mo 6     &trans  &trans         &trans
             >;
