@@ -10,10 +10,10 @@
 
         base {
             bindings = <
-&trans  &kp Q  &kp W  &kp E  &kp R       &kp T                          &kp Y  &kp U          &kp I      &kp O    &kp P      &trans
-&trans  &kp A  &kp S  &kp D  &kp F       &kp G                          &kp H  &kp J          &kp K      &kp L    &kp SEMI   &kp LGUI
-&trans  &kp Z  &kp X  &kp C  &kp V       &kp B  &kp LBKT     &kp RBKT   &kp N  &kp M          &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
-                             &kp LSHIFT  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RIGHT_ALT
+&trans     &kp Q  &kp W  &kp E  &kp R       &kp T                          &kp Y  &kp U       &kp I      &kp O    &kp P      &trans
+&trans     &kp A  &kp S  &kp D  &kp F       &kp G                          &kp H  &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
+&kp LCTRL  &kp Z  &kp X  &kp C  &kp V       &kp B  &kp LBKT     &kp RBKT   &kp N  &kp M       &kp COMMA  &kp DOT  &kp SLASH  &kp LALT
+                                &kp LSHIFT  &mo 1  &kp SPACE    &kp SPACE  &mo 2  &kp RSHIFT
             >;
 
             display-name = "Base";
@@ -46,9 +46,9 @@
 
         adj {
             bindings = <
-&bootloader  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans        &trans      &trans            &trans        &bt BT_SEL 4  &bt BT_CLR
-&trans       &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &out OUT_BLE  &trans      &kp C_MUTE        &kp LEFT_ALT  &kp LCTRL     &studio_unlock
-&trans       &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &out OUT_USB  &kp C_PREV  &kp C_PLAY_PAUSE  &kp C_NEXT    &trans        &trans
+&bootloader  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans        &trans         &trans            &trans      &bt BT_SEL 4  &bt BT_CLR
+&trans       &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &out OUT_BLE  &kp LC(ENTER)  &kp C_MUTE        &trans      &trans        &studio_unlock
+&trans       &trans  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &out OUT_USB  &kp C_PREV     &kp C_PLAY_PAUSE  &kp C_NEXT  &trans        &trans
                                       &trans   &trans   &trans    &trans  &trans        &trans
             >;
 
