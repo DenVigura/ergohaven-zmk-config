@@ -44,10 +44,10 @@
 
         sym {
             bindings = <
-&trans  &trans    &kp LA(F4)  &kp LC(RA(E))  &kp GT          &kp LC(RA(T))                           &trans         &kp LC(RA(V))  &kp LC(RA(C))  &kp LC(RA(O))   &trans     &trans
-&trans  &kp ESC   &trans      &kp LC(RA(D))  &kp LC(LS(F7))  &kp PLUS                                &kp BACKSPACE  &kp ENTER      &kp BACKSPACE  &kp F1          &sk LCTRL  &trans
-&trans  &kp HASH  &kp STAR    &kp LC(RA(C))  &kp LC(RA(V))   &trans         &trans           &trans  &trans         &trans         &kp LC(RA(T))  &kp LS(LC(F7))  &trans     &trans
-                                             &trans          &mo 3          &lt 6 LS(TAB)    &trans  &trans         &trans
+&trans  &trans    &kp LA(F4)     &kp LC(RA(E))  &kp GT          &kp LC(RA(T))                           &kp LC(RA(S))  &kp LC(RA(V))  &kp LC(RA(C))  &kp LC(RA(O))   &trans     &trans
+&trans  &kp ESC   &kp LC(RA(S))  &kp LC(RA(D))  &kp LC(LS(F7))  &kp PLUS                                &trans         &kp ENTER      &kp BACKSPACE  &kp F1          &sk LCTRL  &trans
+&trans  &kp HASH  &kp STAR       &kp LC(RA(C))  &kp LC(RA(V))   &trans         &trans           &trans  &kt LC(RA(E))  &kp LC(RA(D))  &kp LC(RA(T))  &kp LS(LC(F7))  &trans     &trans
+                                                &trans          &mo 3          &lt 6 LS(TAB)    &trans  &trans         &trans
             >;
 
             display-name = "Symbols";
@@ -66,10 +66,10 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans                  &trans  &trans        &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LS(LC(LEFT_ARROW))  &trans  &kp LS(HOME)  &kp HOME  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans                  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans    &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &kp HOME  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "FOUR";
