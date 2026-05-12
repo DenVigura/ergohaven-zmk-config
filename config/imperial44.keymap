@@ -33,7 +33,7 @@
 
         nav {
             bindings = <
-&trans  &kp LG(TAB)  &kp LA(F4)  &kp LA(E)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN   &kp LC(T)       &trans  &trans
+&trans  &kp LG(TAB)  &kp LA(F4)  &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN   &kp LC(T)       &trans  &trans
 &trans  &kp ESC      &kp F3      &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp LA(J)     &kp LA(K)  &kp LC(TAB)     &trans  &trans
 &trans  &kp LC(Z)    &kp LC(X)   &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END    &kp LS(LC(F7))  &trans  &trans
                                              &trans     &trans         &trans    &lt 5 TAB  &mo 3            &trans
