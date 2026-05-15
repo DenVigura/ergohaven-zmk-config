@@ -12,6 +12,11 @@
             bindings = <&kp LG(SPACE)>;
             key-positions = <19 20>;
         };
+
+        ha {
+            bindings = <&kp RU_CYRILLIC_HA>;
+            key-positions = <8 9>;
+        };
     };
 
     keymap {
