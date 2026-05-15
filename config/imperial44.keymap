@@ -49,9 +49,9 @@
 
         sym {
             bindings = <
-&trans  &trans   &kp LA(F4)     &kp LC(RA(E))  &trans         &kp LC(RA(T))                           &kp LC(RA(S))         &kp LC(RA(V))  &kp LC(RA(C))  &kp LC(RA(O))   &kp LS(LC(F7))  &trans
-&trans  &kp ESC  &kp LC(RA(S))  &kp LC(RA(D))  &trans         &trans                                  &sk LG(LC(NUMBER_9))  &kp ENTER      &kp BACKSPACE  &kp F1          &sk LCTRL       &trans
-&trans  &trans   &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans           &trans  &trans                &kp LC(RA(D))  &kp LC(RA(T))  &kp LS(LC(F7))  &sk LS(LCTRL)   &trans
+&trans  &trans   &kp LA(F4)     &kp LC(RA(E))  &trans         &kp LC(RA(T))                           &kp LC(RA(S))         &kp RU_CYRILLIC_HA  &kp LC(RA(C))  &kp LC(RA(O))   &kp LS(LC(F7))  &trans
+&trans  &kp ESC  &kp LC(RA(S))  &kp LC(RA(D))  &trans         &trans                                  &sk LG(LC(NUMBER_9))  &kp ENTER           &kp BACKSPACE  &kp F1          &sk LCTRL       &trans
+&trans  &trans   &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans           &trans  &trans                &kp LC(RA(D))       &kp LC(RA(T))  &kp LS(LC(F7))  &sk LS(LCTRL)   &trans
                                                &trans         &mo 3          &lt 6 LS(TAB)    &trans  &trans                &trans
             >;
 
