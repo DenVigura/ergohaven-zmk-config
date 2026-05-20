@@ -92,9 +92,9 @@
 
         r_space {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &kp PRINTSCREEN  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans           &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans         &trans         &trans  &kp PRINTSCREEN  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LC(RA(C))  &kp LC(RA(O))  &trans  &trans           &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(RA(T))  &kp LC(RA(V))  &trans  &trans           &trans
                                 &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
