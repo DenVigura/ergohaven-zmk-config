@@ -74,9 +74,9 @@
 
         nav {
             bindings = <
-&trans  &tap_sl_hold_kp LG(TAB) 4  &trans     &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN  &kp LC(T)    &kp RU_CYRILLIC_HA         &trans
-&trans  &kp ESC                    &kp F3     &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)  &kp F1                     &trans
-&trans  &kp LC(Z)                  &kp LC(X)  &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END   &kp F1       &kp RU_CYRILLIC_HARD_SIGN  &trans
+&trans  &tap_sl_hold_kp LG(TAB) 4  &trans     &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN  &kp LC(T)    &trans  &trans
+&trans  &kp ESC                    &kp F3     &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)  &kp F1  &trans
+&trans  &kp LC(Z)                  &kp LC(X)  &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END   &kp F1       &trans  &trans
                                                           &trans     &trans         &trans    &lt 5 TAB  &mo 3            &sl 4
             >;
 
