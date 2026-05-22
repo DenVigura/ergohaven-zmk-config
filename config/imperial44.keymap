@@ -46,9 +46,6 @@
             >;
 
             display-name = "Base";
-            sensor-bindings =
-                <&inc_dec_kp C_VOL_UP C_VOL_DN>,
-                <&inc_dec_kp PG_UP PG_DN>;
         };
 
         nav {
@@ -86,10 +83,10 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans         &trans         &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(RA(D))  &kp LC(RA(V))  &trans         &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(RA(C))  &kp LC(RA(T))  &kp LC(RA(O))  &trans  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans         &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans         &trans         &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LC(RA(D))  &kp LC(RA(V))  &kp LC(RA(S))  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(RA(C))  &kp LC(RA(T))  &kp LC(RA(O))  &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "FOUR";
