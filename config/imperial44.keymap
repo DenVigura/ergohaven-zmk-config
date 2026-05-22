@@ -47,6 +47,17 @@
         };
     };
 
+    behaviors {
+        tap_sl_hold_kp: tap_sl_hold_kp {
+            compatible = "zmk,behavior-hold-tap";
+            label = "TAP_SL_HOLD_KP";
+            bindings = <&kp>, <&sl>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <200>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -63,10 +74,10 @@
 
         nav {
             bindings = <
-&trans  &kp LG(TAB)  &trans     &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN  &kp LC(T)       &kp RU_CYRILLIC_HA         &trans
-&trans  &kp ESC      &kp F3     &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)     &kp RU_CYRILLIC_E          &trans
-&trans  &kp LC(Z)    &kp LC(X)  &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END   &kp LS(LC(F7))  &kp RU_CYRILLIC_HARD_SIGN  &trans
-                                            &trans     &trans         &trans    &lt 5 TAB  &mo 3            &sl 4
+&trans  &tap_sl_hold_kp LG(TAB) 4  &trans     &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN  &kp LC(T)       &kp RU_CYRILLIC_HA         &trans
+&trans  &kp ESC                    &kp F3     &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)     &kp RU_CYRILLIC_E          &trans
+&trans  &kp LC(Z)                  &kp LC(X)  &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END   &kp LS(LC(F7))  &kp RU_CYRILLIC_HARD_SIGN  &trans
+                                                          &trans     &trans         &trans    &lt 5 TAB  &mo 3            &sl 4
             >;
 
             display-name = "Nav";
