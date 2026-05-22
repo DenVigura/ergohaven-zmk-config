@@ -31,6 +31,19 @@
         nav-l_shift {
             bindings = <&mo 4>;
             key-positions = <39 40>;
+            layers = <0>;
+        };
+
+        run-chrome {
+            bindings = <&kp LC(RA(C))>;
+            key-positions = <7 8>;
+            layers = <1>;
+        };
+
+        run-obsidian {
+            bindings = <&kp LC(RA(O))>;
+            key-positions = <33 34>;
+            layers = <1>;
         };
     };
 
