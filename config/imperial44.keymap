@@ -31,6 +31,7 @@
         nav-l_shift {
             bindings = <&mo 6>;
             key-positions = <38 39>;
+            layers = <1>;
         };
     };
 
