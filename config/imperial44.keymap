@@ -29,9 +29,8 @@
         };
 
         nav-l_shift {
-            bindings = <&mo 6>;
-            key-positions = <38 39>;
-            layers = <1>;
+            bindings = <&mo 4>;
+            key-positions = <39 40>;
         };
     };
 
