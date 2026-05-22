@@ -86,9 +86,9 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans         &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans         &trans  &trans  &trans    &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(RA(C))  &trans  &trans  &kp HOME  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans         &trans         &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LC(RA(D))  &kp LC(RA(V))  &trans         &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(RA(C))  &kp LC(RA(T))  &kp LC(RA(O))  &trans  &trans  &trans
                                 &trans  &trans  &trans    &trans  &trans         &trans
             >;
 
