@@ -75,7 +75,7 @@
         nav {
             bindings = <
 &trans  &mt LG(TAB) LS(LC(F7))  &kp LA(F4)  &kp LC(W)   &kp LA(R)  &kp LA(T)                           &kp HOME         &kp UP        &kp DOWN  &kp LC(T)    &trans  &trans
-&trans  &kp ESC                 &kp F3      &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)  &kp F1  &trans
+&trans  &kp ESC                 &kp F3      &kp DELETE  &kp LA(F)  &kp LA(LS(K))                       &kp LS(LC(TAB))  &kp F20       &kp F21   &kp LC(TAB)  &trans  &trans
 &trans  &kp LC(Z)               &kp LC(X)   &kp LC(C)   &kp LC(V)  &trans         &trans    &trans     &kp LA(N)        &kp LC(SEMI)  &kp END   &kp F1       &trans  &trans
                                                         &trans     &trans         &trans    &lt 5 TAB  &mo 3            &sl 4
             >;
@@ -85,9 +85,9 @@
 
         sym {
             bindings = <
-&trans  &trans  &trans         &kp LC(RA(E))  &trans         &kp LC(RA(T))                           &trans                &trans     &kp LC(RA(I))  &kp LC(RA(O))   &kp LS(LC(F7))  &trans
-&trans  &trans  &kp LC(RA(S))  &kp LC(RA(D))  &kp LC(RA(C))  &trans                                  &sk LG(LC(NUMBER_9))  &kp ENTER  &kp BACKSPACE  &kp F1          &sk LCTRL       &trans
-&trans  &trans  &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans           &trans  &trans                &trans     &trans         &kp LS(LC(F7))  &sk LS(LCTRL)   &trans
+&trans  &trans  &trans         &kp LC(RA(E))  &trans         &kp LC(RA(T))                           &trans                &trans     &kp LC(RA(I))  &kp LC(RA(O))  &trans         &trans
+&trans  &trans  &kp LC(RA(S))  &kp LC(RA(D))  &kp LC(RA(C))  &trans                                  &sk LG(LC(NUMBER_9))  &kp ENTER  &kp BACKSPACE  &kp F1         &sk LCTRL      &trans
+&trans  &trans  &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans           &trans  &trans                &trans     &trans         &kp F1         &sk LS(LCTRL)  &trans
                                               &trans         &mo 3          &lt 6 LS(TAB)    &trans  &trans                &trans
             >;
 
