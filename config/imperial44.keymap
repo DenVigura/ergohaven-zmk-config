@@ -33,18 +33,6 @@
             key-positions = <39 40>;
             layers = <0>;
         };
-
-        run-chrome {
-            bindings = <&kp LC(RA(C))>;
-            key-positions = <7 8>;
-            layers = <1>;
-        };
-
-        run-obsidian {
-            bindings = <&kp LC(RA(O))>;
-            key-positions = <33 34>;
-            layers = <1>;
-        };
     };
 
     behaviors {
@@ -107,10 +95,10 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans         &trans         &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &kp LC(RA(D))  &kp LC(RA(V))  &kp LC(RA(S))  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &kp LC(RA(C))  &kp LC(RA(T))  &kp LC(RA(O))  &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &kp LA(LEFT)  &trans  &trans  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &trans         &trans  &trans
+                                &trans  &trans  &trans    &trans  &trans        &trans
             >;
 
             label = "FOUR";
