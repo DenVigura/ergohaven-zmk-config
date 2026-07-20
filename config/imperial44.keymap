@@ -95,10 +95,10 @@
 
         four {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans  &trans  &trans         &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LA(LEFT)  &trans  &trans  &kp LA(RIGHT)  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans  &trans  &trans         &trans  &trans
-                                &trans  &trans  &trans    &trans  &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &trans        &trans         &trans  &trans         &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                          &kp LA(LEFT)  &trans         &trans  &kp LA(RIGHT)  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans        &trans        &trans         &trans  &trans         &trans  &trans
+                                &trans  &trans  &trans    &kp LA(LEFT)  &trans        &kp LA(RIGHT)
             >;
 
             label = "FOUR";
