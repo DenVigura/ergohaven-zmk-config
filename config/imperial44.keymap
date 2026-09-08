@@ -52,10 +52,10 @@
             #binding-cells = <0>;
             bindings =
                 <&macro_press>,
-                <&mo 1 &kp LALT>,
+                <&mo 1 &kp LC(LS(NUMBER_2))>,
                 <&macro_pause_for_release>,
                 <&macro_release>,
-                <&mo 1 &kp LALT>;
+                <&mo 1 &kp LC(LS(NUMBER_2))>;
 
             label = "LANG_RU";
         };
