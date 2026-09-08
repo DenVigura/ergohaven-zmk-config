@@ -52,7 +52,7 @@
 
             #binding-cells = <2>;
             flavor = "hold-preferred";
-            tapping-term-ms = <150>;
+            tapping-term-ms = <100>;
         };
     };
 
@@ -70,6 +70,20 @@
 
             label = "LANG_RU";
         };
+
+        lang_en: lang_en {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp LC(LS(N1))>,
+                <&macro_press>,
+                <&mo 2>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 2>;
+
+            label = "LANG_EN";
+        };
     };
 
     keymap {
@@ -77,10 +91,10 @@
 
         base {
             bindings = <
-&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                                                     &kp Y                        &kp U       &kp I      &kp O    &kp P      &trans
-&trans          &kp A  &kp S  &kp D  &kp F       &kp G                                                     &kp H                        &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
-&trans          &kp Z  &kp X  &kp C  &kp V       &kp B     &trans                               &trans     &kp N                        &kp M       &kp COMMA  &kp DOT  &kp SLASH  &trans
-                                     &kp LSHIFT  &lang_ru  &hold_tap_lang 1 LS(LC(NUMBER_2))    &kp SPACE  &hold_tap_lang 2 LS(LC(N1))  &kp RSHIFT
+&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                                                    &kp Y                        &kp U       &kp I      &kp O    &kp P      &trans
+&trans          &kp A  &kp S  &kp D  &kp F       &kp G                                                    &kp H                        &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
+&trans          &kp Z  &kp X  &kp C  &kp V       &kp B                              &trans      &trans    &kp N                        &kp M       &kp COMMA  &kp DOT  &kp SLASH  &trans
+                                     &kp LSHIFT  &hold_tap_lang 1 LS(LC(NUMBER_2))  &lang_ru    &lang_en  &hold_tap_lang 2 LS(LC(N1))  &kp RSHIFT
             >;
 
             display-name = "Base";
