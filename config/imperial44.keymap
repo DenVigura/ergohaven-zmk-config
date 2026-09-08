@@ -44,6 +44,16 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        hold_tap_lang: hold_tap_lang {
+            compatible = "zmk,behavior-hold-tap";
+            label = "HOLD_TAP_LANG";
+            bindings = <&mo>, <&kp>;
+
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <200>;
+        };
     };
 
     macros {
@@ -67,10 +77,10 @@
 
         base {
             bindings = <
-&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                             &kp Y  &kp U       &kp I      &kp O    &kp P      &trans
-&trans          &kp A  &kp S  &kp D  &kp F       &kp G                             &kp H  &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
-&trans          &kp Z  &kp X  &kp C  &kp V       &kp B     &trans       &trans     &kp N  &kp M       &kp COMMA  &kp DOT  &kp SLASH  &trans
-                                     &kp LSHIFT  &lang_ru  &kp SPACE    &kp SPACE  &mo 2  &kp RSHIFT
+&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                                                     &kp Y                        &kp U       &kp I      &kp O    &kp P      &trans
+&trans          &kp A  &kp S  &kp D  &kp F       &kp G                                                     &kp H                        &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
+&trans          &kp Z  &kp X  &kp C  &kp V       &kp B     &trans                               &trans     &kp N                        &kp M       &kp COMMA  &kp DOT  &kp SLASH  &trans
+                                     &kp LSHIFT  &lang_ru  &hold_tap_lang 1 LS(LC(NUMBER_2))    &kp SPACE  &hold_tap_lang 2 LS(LC(N1))  &kp RSHIFT
             >;
 
             display-name = "Base";
