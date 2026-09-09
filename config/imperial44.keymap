@@ -102,10 +102,10 @@
 
         base {
             bindings = <
-&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                                                      &kp Y                        &kp U       &kp I      &kp O    &kp P      &trans
-&trans          &kp A  &kp S  &kp D  &kp F       &kp G                                                      &kp H                        &kp J       &kp K      &kp L    &kp SEMI   &kp LGUI
-&trans          &kp Z  &kp X  &kp C  &kp V       &kp B                              &trans       &trans     &kp N                        &kp M       &kp COMMA  &kp DOT  &kp SLASH  &trans
-                                     &kp LSHIFT  &hold_tap_lang 1 LS(LC(NUMBER_2))  &kp SPACE    &kp SPACE  &hold_tap_lang 2 LS(LC(N1))  &kp RSHIFT
+&kp LS(LC(F7))  &kp Q  &kp W  &kp E  &kp R       &kp T                                                      &kp Y                        &kp U      &kp I      &kp O    &kp P      &trans
+&trans          &kp A  &kp S  &kp D  &kp F       &kp G                                                      &kp H                        &kp J      &kp K      &kp L    &kp SEMI   &kp LGUI
+&trans          &kp Z  &kp X  &kp C  &kp V       &kp B                              &trans       &trans     &kp N                        &kp M      &kp COMMA  &kp DOT  &kp SLASH  &trans
+                                     &kp LSHIFT  &hold_tap_lang 1 LS(LC(NUMBER_2))  &kp SPACE    &kp SPACE  &hold_tap_lang 2 LS(LC(N1))  &lang_en2
             >;
 
             display-name = "Base";
