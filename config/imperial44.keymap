@@ -79,6 +79,22 @@
 
             label = "LANG_EN";
         };
+
+        lang_en2: lang_en2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&macro_press>,
+                <&kp LC(LS(N1))>,
+                <&macro_release>,
+                <&mo 2>,
+                <&macro_pause_for_release>,
+                <&macro_release>,
+                <&mo 2>;
+
+            label = "LANG_EN2";
+        };
     };
 
     keymap {
