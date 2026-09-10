@@ -129,10 +129,10 @@
 
         sym {
             bindings = <
-&trans  &trans  &trans         &kp LC(RA(E))  &trans         &kp LC(RA(T))                    &trans                &trans     &kp LC(RA(I))  &kp LC(RA(O))  &sk LEFT_ALT   &trans
-&trans  &trans  &kp LC(RA(S))  &kp LC(RA(D))  &kp LC(RA(C))  &trans                           &sk LG(LC(NUMBER_9))  &kp ENTER  &kp BACKSPACE  &kp F1         &sk LCTRL      &trans
-&trans  &trans  &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans    &trans  &trans                &trans     &trans         &kp F1         &sk LS(LCTRL)  &trans
-                                              &trans         &trans         &trans    &trans  &trans                &trans
+&trans  &kp LG(TAB)  &trans         &kp LC(RA(E))  &trans         &kp LC(RA(T))                    &trans                &trans     &kp LC(RA(I))  &kp LC(RA(O))  &sk LEFT_ALT   &trans
+&trans  &trans       &kp LC(RA(S))  &kp LC(RA(D))  &kp LC(RA(C))  &trans                           &sk LG(LC(NUMBER_9))  &kp ENTER  &kp BACKSPACE  &kp F1         &sk LCTRL      &trans
+&trans  &trans       &trans         &kp LC(RA(C))  &kp LC(RA(V))  &trans         &trans    &trans  &trans                &trans     &trans         &kp F1         &sk LS(LCTRL)  &trans
+                                                   &trans         &trans         &trans    &trans  &trans                &trans
             >;
 
             display-name = "Symbols";
